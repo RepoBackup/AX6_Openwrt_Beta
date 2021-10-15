@@ -11,6 +11,7 @@
 name: Redmi_AX6_AP
 
 on:
+  push:
   repository_dispatch:
   workflow_dispatch:
     inputs:
