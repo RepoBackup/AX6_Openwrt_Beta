@@ -28,7 +28,8 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=65535' package
 #git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
 #rm -rf ../lean/luci-theme-argon
 # Modify hostname
-#sed -i 's/OpenWrt/OpenWrt/g' package/base-files/files/bin/config_generate
+
+sed -i 's/OpenWrt/Mirae/g' package/base-files/files/bin/config_generate
 
 # Modify the version number
 #sed -i "s/OpenWrt /MuaChow build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
